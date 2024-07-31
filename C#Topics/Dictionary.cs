@@ -1,13 +1,14 @@
-﻿// Dictionary in C#
+﻿using System;
+using System.Collections.Generic;
+
+
+// Dictionary in C#
 
 // Dictionary is a generic collection which is generally used to store key/value pairs
 // In Dictionary, the key cannot be null, but value can be.
 // Key must be unique.
 // In Dictionary, you can only store same types of elements.
 
-
-using System;
-using System.Collections.Generic;
 
 // Customkey class is created to override the GetHashCode and Equals method
 class CustomKey
